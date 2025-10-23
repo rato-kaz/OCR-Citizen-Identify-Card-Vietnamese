@@ -1,0 +1,56 @@
+2025-10-23 02:27:38,527 - api - INFO - Starting Vietnamese OCR Service v1.0.0
+2025-10-23 02:27:38,527 - api - INFO - API documentation available at /docs
+2025-10-23 02:27:52,783 - api - INFO - Initializing OCR pipeline services...
+2025-10-23 02:27:52,783 - models - INFO - Loading YOLO model from models/Text_Detection/YOLO/ID_CARD_2.pt
+2025-10-23 02:27:52,866 - models - INFO - YOLO model loaded successfully with 17 classes
+2025-10-23 02:27:52,867 - models - INFO - Text labels to process: ['dob', 'gender', 'id', 'name', 'nationality', 'current_place1', 'current_place2', 'expire_date', 'issue_date', 'origin_place1', 'origin_place2', 'personal_identifi']
+2025-10-23 02:27:52,867 - models - INFO - Class IDs for text processing: [2, 3, 4, 5, 6, 7, 11, 12, 13, 14, 15, 16]
+2025-10-23 02:27:52,867 - ocr - INFO - Loading VietOCR model: vgg_transformer
+2025-10-23 02:27:54,801 - ocr - INFO - VietOCR model loaded successfully
+2025-10-23 02:27:54,801 - api - INFO - OCR pipeline services initialized successfully
+2025-10-23 02:27:54,802 - api - INFO - Received file: cccd_test.jpg
+2025-10-23 02:27:54,803 - api - INFO - Saved temporary file: output\temp_1761161274_cccd_test.jpg
+2025-10-23 02:27:54,803 - api - INFO - Processing image: output\temp_1761161274_cccd_test.jpg
+2025-10-23 02:27:54,803 - models - INFO - Detecting text regions in output\temp_1761161274_cccd_test.jpg
+2025-10-23 02:27:55,598 - models - INFO - YOLO detected 11 total regions
+2025-10-23 02:27:55,598 - models - INFO - Text regions for OCR: 10
+2025-10-23 02:27:55,598 - models - INFO - Detection completed in 0.793s
+2025-10-23 02:27:55,598 - ocr - INFO - Extracting text from 10 regions
+2025-10-23 02:27:56,887 - ocr - INFO - OCR completed: 10 texts extracted in 1.289s
+2025-10-23 02:27:56,887 - api - INFO - Pipeline completed successfully:
+2025-10-23 02:27:56,887 - api - INFO -   - Total regions: 11
+2025-10-23 02:27:56,888 - api - INFO -   - Text regions: 10
+2025-10-23 02:27:56,888 - api - INFO -   - Extracted texts: 10
+2025-10-23 02:27:56,888 - api - INFO -   - Detection time: 0.793s
+2025-10-23 02:27:56,888 - api - INFO -   - OCR time: 1.289s
+2025-10-23 02:27:56,888 - api - INFO -   - Total time: 2.082s
+2025-10-23 02:27:56,890 - api - INFO - Cleaned up temporary file: output\temp_1761161274_cccd_test.jpg
+2025-10-23 02:30:05,129 - api - INFO - Shutting down OCR service
+2025-10-23 02:30:12,045 - api - INFO - Starting Vietnamese OCR Service v1.0.0
+2025-10-23 02:30:12,045 - api - INFO - API documentation available at /docs
+2025-10-23 02:30:20,698 - api - INFO - Shutting down OCR service
+2025-10-23 02:30:29,911 - api - INFO - Starting Vietnamese OCR Service v1.0.0
+2025-10-23 02:30:29,911 - api - INFO - API documentation available at /docs
+2025-10-23 02:30:29,912 - api - INFO - Shutting down OCR service
+2025-10-23 02:30:37,767 - api - INFO - Starting Vietnamese OCR Service v1.0.0
+2025-10-23 02:30:37,767 - api - INFO - API documentation available at /docs
+2025-10-23 02:30:37,769 - api - INFO - Shutting down OCR service
+2025-10-23 02:30:52,589 - api - INFO - Starting Vietnamese OCR Service v1.0.0
+2025-10-23 02:30:52,590 - api - INFO - API documentation available at /docs
+2025-10-23 02:30:52,590 - api - INFO - Shutting down OCR service
+2025-10-23 02:30:58,120 - api - INFO - Starting Vietnamese OCR Service v1.0.0
+2025-10-23 02:30:58,120 - api - INFO - API documentation available at /docs
+2025-10-23 02:48:06,387 - api - INFO - Starting Vietnamese OCR Service (Mock) v1.0.0
+2025-10-23 02:48:06,387 - api - INFO - API documentation available at /docs
+2025-10-23 02:50:20,405 - api - INFO - Starting Vietnamese OCR Service v1.0.0
+2025-10-23 02:50:20,406 - api - INFO - API documentation available at /docs
+2025-10-23 02:50:42,065 - api - INFO - Shutting down mock OCR service
+2025-10-23 02:50:42,703 - api - INFO - Starting Vietnamese OCR Service (Mock) v1.0.0
+2025-10-23 02:50:42,703 - api - INFO - API documentation available at /docs
+2025-10-23 02:50:42,763 - api - INFO - Shutting down mock OCR service
+2025-10-23 02:50:43,348 - api - INFO - Starting Vietnamese OCR Service (Mock) v1.0.0
+2025-10-23 02:50:43,348 - api - INFO - API documentation available at /docs
+2025-10-23 02:50:47,995 - api - INFO - Shutting down OCR service
+2025-10-23 02:50:53,760 - api - INFO - Starting Vietnamese OCR Service v1.0.0
+2025-10-23 02:50:53,760 - api - INFO - API documentation available at /docs
+2025-10-23 02:51:19,679 - api - INFO - Shutting down OCR service

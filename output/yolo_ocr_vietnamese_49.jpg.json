@@ -1,0 +1,37 @@
+{
+  "image_path": "49.jpg",
+  "timing": {
+    "detection_time": 0.03400540351867676,
+    "ocr_time": 0.25722384452819824,
+    "total_time": 0.29223060607910156
+  },
+  "total_regions": 2,
+  "results": [
+    {
+      "bbox": [
+        262,
+        86,
+        344,
+        115
+      ],
+      "extracted_text": "10/11/2018",
+      "yolo_confidence": 0.888590395450592,
+      "ocr_confidence": 1.0,
+      "class_id": 11,
+      "class_name": "issue_date"
+    },
+    {
+      "bbox": [
+        22,
+        41,
+        206,
+        71
+      ],
+      "extracted_text": "Xẹo N: 2cm dưới mép phải",
+      "yolo_confidence": 0.8798657059669495,
+      "ocr_confidence": 1.0,
+      "class_id": 16,
+      "class_name": "personal_identifi"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "image_path": "img527.jpg",
+  "timing": {
+    "detection_time": 0.8629858493804932,
+    "ocr_time": 1.335146427154541,
+    "total_time": 2.1991307735443115
+  },
+  "total_regions": 9,
+  "results": [
+    {
+      "bbox": [
+        182,
+        347,
+        380,
+        393
+      ],
+      "extracted_text": "...............",
+      "yolo_confidence": 0.929374635219574,
+      "ocr_confidence": 1.0,
+      "class_id": 12,
+      "class_name": "name"
+    },
+    {
+      "bbox": [
+        253,
+        263,
+        475,
+        315
+      ],
+      "extracted_text": "..........",
+      "yolo_confidence": 0.9148365259170532,
+      "ocr_confidence": 1.0,
+      "class_id": 7,
+      "class_name": "id"
+    },
+    {
+      "bbox": [
+        189,
+        577,
+        561,
+        619
+      ],
+      "extracted_text": "................",
+      "yolo_confidence": 0.9126847386360168,
+      "ocr_confidence": 1.0,
+      "class_id": 3,
+      "class_name": "current_place2"
+    },
+    {
+      "bbox": [
+        431,
+        541,
+        562,
+        582
+      ],
+      "extracted_text": ".............",
+      "yolo_confidence": 0.9126651287078857,
+      "ocr_confidence": 1.0,
+      "class_id": 2,
+      "class_name": "current_place1"
+    },
+    {
+      "bbox": [
+        187,
+        503,
+        560,
+        541
+      ],
+      "extracted_text": "............................",
+      "yolo_confidence": 0.9115458130836487,
+      "ocr_confidence": 1.0,
+      "class_id": 15,
+      "class_name": "origin_place2"
+    },
+    {
+      "bbox": [
+        517,
+        424,
+        607,
+        469
+      ],
+      "extracted_text": "Việt Nam",
+      "yolo_confidence": 0.9095937013626099,
+      "ocr_confidence": 1.0,
+      "class_id": 13,
+      "class_name": "nationality"
+    },
+    {
+      "bbox": [
+        367,
+        388,
+        473,
+        430
+      ],
+      "extracted_text": "01/01/1980",
+      "yolo_confidence": 0.9084212779998779,
+      "ocr_confidence": 1.0,
+      "class_id": 4,
+      "class_name": "dob"
+    },
+    {
+      "bbox": [
+        298,
+        429,
+        345,
+        467
+      ],
+      "extracted_text": "Nam",
+      "yolo_confidence": 0.8965352773666382,
+      "ocr_confidence": 1.0,
+      "class_id": 6,
+      "class_name": "gender"
+    },
+    {
+      "bbox": [
+        97,
+        570,
+        184,
+        602
+      ],
+      "extracted_text": "01/01/2040",
+      "yolo_confidence": 0.8943286538124084,
+      "ocr_confidence": 1.0,
+      "class_id": 5,
+      "class_name": "expire_date"
+    }
+  ]
+}
